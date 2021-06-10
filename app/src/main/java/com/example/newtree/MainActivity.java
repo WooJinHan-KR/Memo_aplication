@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -15,8 +16,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button button3;
     Button button4;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        setTheme(R.style.Theme_NewTree);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("on","onCreate");

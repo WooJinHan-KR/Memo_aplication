@@ -5,33 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/mint"
     tools:context=".MainActivity">
 
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo" />
+
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_margin="3dip"
+        android:layout_weight="1"
+        android:background="@color/white"
         android:text="StopWatch"
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="172dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:layout_margin="3dip"
         android:text="Alarm/D-day" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:layout_margin="3dip"
         android:text="Simple Memo" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:layout_margin="3dip"
         android:text="Calender" />
 
 </LinearLayout>
